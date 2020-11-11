@@ -29,8 +29,8 @@ class amba_scoreboard;
 		else
 			$error("MISS");
 
-		$display("dutintf : prdata = %h\t apb_read_data_out = %h",dutintf.prdata,dutintf.apb_read_data_out);
-		$display("dutintf_2 : prdata = %h\t apb_read_data_out = %h",dutintf_2.prdata,dutintf_2.apb_read_data_out);
+		$display("dutintf : apb_write_paddr = %h\t apb_write_data = %h",dutintf.apb_write_paddr,dutintf.apb_write_data);
+		$display("dutintf_2 : apb_write_paddr = %h\t apb_write_data = %h",dutintf_2.apb_write_paddr,dutintf_2.apb_write_data);
 		$display("");
 		$display("");
 

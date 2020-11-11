@@ -4,6 +4,7 @@ class amba_environment;
 	amba_generator dutGen;
 	amba_driver dutDrv;
 	amba_monitor dutMon;
+	amba_coverage dutCov;
 	amba_scoreboard dutScb;
 
 	virtual intf dutintf_2;
@@ -27,13 +28,15 @@ class amba_environment;
 		dutDrv = new(mb_gen_drv,dutintf,dutintf_2);
 		dutMon = new(mb_mon_scb,mb_mon_scb2,dutintf,dutintf_2);
 		dutScb = new(mb_mon_scb,mb_mon_scb2);
-		endtask
+		dutCov = new(dutintf);
+	endtask
 
 	task run();
 
 		dutGen.run();
 		dutDrv.run();
 		dutMon.run();
+		dutCov.sample();
 		dutScb.run();
 
 	endtask

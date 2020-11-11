@@ -21,4 +21,4 @@ module amba_test(Probe_Intf probeIntf, intf dutintf);
 		end
 	end
 
-endmodule
+endmodule1

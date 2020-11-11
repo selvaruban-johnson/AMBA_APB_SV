@@ -46,6 +46,8 @@ module amba_top;
 			.penable(dutintf_2.penable)
 		);
 
-	amba_test t1(dutintf,dutintf_2);
+
+
+	amba_test t1(probeIntf,dutintf);
 
 endmodule

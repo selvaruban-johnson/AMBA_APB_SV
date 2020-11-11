@@ -1,0 +1,1218 @@
+# //  Questa Sim-64
+# //  Version 10.4e win64 Apr  9 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_apb.v
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 15:56:26 on Oct 20,2020
+# vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_apb.v 
+# -- Compiling module apb_slave
+# -- Compiling module apb_master
+# -- Compiling module amba_apb
+# 
+# Top level modules:
+# 	amba_apb
+# End time: 15:56:26 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_coverage.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 15:56:26 on Oct 20,2020
+# vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_coverage.sv 
+# 
+# Top level modules:
+# 	--none--
+# End time: 15:56:26 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_driver.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 15:56:26 on Oct 20,2020
+# vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_driver.sv 
+# ** Error: D:/projects/AMBA_APB_SV/amba_driver.sv(3): Invalid type 'amba_packet'. Please check the type of the variable 'dutpkt'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_driver.sv(5): (vlog-2730) Undefined variable: 'amba_packet'.
+# 
+# End time: 15:56:26 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_environment.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 15:56:27 on Oct 20,2020
+# vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_environment.sv 
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(3): Invalid type 'amba_packet'. Please check the type of the variable 'dutPkt'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(4): Invalid type 'amba_generator'. Please check the type of the variable 'dutGen'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(5): Invalid type 'amba_driver'. Please check the type of the variable 'dutDrv'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(6): Invalid type 'amba_monitor'. Please check the type of the variable 'dutMon'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(7): Invalid type 'amba_coverage'. Please check the type of the variable 'dutCov'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(8): Invalid type 'amba_scoreboard'. Please check the type of the variable 'dutScb'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(13): (vlog-2730) Undefined variable: 'amba_packet'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(14): (vlog-2730) Undefined variable: 'Probe_Packet'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(26): (vlog-2730) Undefined variable: 'dutGen'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(27): (vlog-2730) Undefined variable: 'dutDrv'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(28): (vlog-2730) Undefined variable: 'dutMon'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(29): (vlog-2730) Undefined variable: 'dutScb'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(30): (vlog-2730) Undefined variable: 'dutCov'.
+# 
+# End time: 15:56:27 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 13, Warnings: 0
+vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_generator.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 15:56:27 on Oct 20,2020
+# vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_generator.sv 
+# ** Error: D:/projects/AMBA_APB_SV/amba_generator.sv(3): Invalid type 'amba_packet'. Please check the type of the variable 'dutpkt'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_generator.sv(4): (vlog-2730) Undefined variable: 'amba_packet'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_generator.sv(16): (vlog-2730) Undefined variable: 'dutpkt'.
+# 
+# End time: 15:56:27 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_header.svh
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 15:56:27 on Oct 20,2020
+# vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_header.svh 
+# -- Compiling interface intf
+# -- Compiling interface Probe_Intf
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_header.svh(9)
+# ** while parsing file included at amba_monitor.sv(1)
+# ** at amba_packet.sv(1): Typedef 'amba_packet' multiply defined.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_header.svh(9)
+# ** while parsing file included at amba_monitor.sv(2)
+# ** at Probe_Packet.sv(1): Typedef 'Probe_Packet' multiply defined.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_header.svh(11)
+# ** at amba_scoreboard.sv(1): Cannot find `include file "Probr_Packet.sv" in directories:
+#     C:/questasim64_10.4e/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_header.svh(12)
+# ** at amba_environment.sv(4): Invalid type 'amba_generator'. Please check the type of the variable 'dutGen'.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_header.svh(12)
+# ** at amba_environment.sv(26): (vlog-2730) Undefined variable: 'dutGen'.
+# 
+# End time: 15:56:27 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_monitor.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 15:56:27 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_monitor.sv 
+# ** Error: D:/projects/AMBA_APB_SV/amba_monitor.sv(16): Field/method name (dutintf) not in 'this'
+# ** Error: D:/projects/AMBA_APB_SV/amba_monitor.sv(56): Field/method name (mpwrit) not in 'dutpkt'
+# End time: 15:56:27 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_packet.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 15:56:27 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_packet.sv 
+# 
+# Top level modules:
+# 	--none--
+# End time: 15:56:27 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_scoreboard.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 15:56:27 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_scoreboard.sv 
+# ** Error: D:/projects/AMBA_APB_SV/amba_scoreboard.sv(1): Cannot find `include file "Probr_Packet.sv" in directories:
+#     C:/questasim64_10.4e/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# ** Error: D:/projects/AMBA_APB_SV/amba_scoreboard.sv(4): Invalid type 'Probe_Packet'. Please check the type of the variable 'probePkt'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_scoreboard.sv(6): (vlog-2730) Undefined variable: 'Probe_Packet'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_scoreboard.sv(21): (vlog-2730) Undefined variable: 'probePkt'.
+# 
+# End time: 15:56:27 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_test.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 15:56:27 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_test.sv 
+# -- Compiling module amba_test
+# ** Error: D:/projects/AMBA_APB_SV/amba_test.sv(4): 'amba_environment' is an unknown type.
+# Or did you omit the '()' for an instantiation?
+# ** Error: D:/projects/AMBA_APB_SV/amba_test.sv(8): 'dutEnv' is not a variable
+# ** Error: D:/projects/AMBA_APB_SV/amba_test.sv(8): Illegal LHS of assignment.
+# ** Error: D:/projects/AMBA_APB_SV/amba_test.sv(8): Illegal LHS of 'new' assignment.
+# ** Error: D:/projects/AMBA_APB_SV/amba_test.sv(8): 'new' must be used to assign to a class or covergroup handle.
+# End time: 15:56:27 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_top.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 15:56:28 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_top.sv 
+# -- Compiling interface intf
+# -- Compiling interface Probe_Intf
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(9)
+# ** while parsing file included at amba_monitor.sv(1)
+# ** at amba_packet.sv(1): Typedef 'amba_packet' multiply defined.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(9)
+# ** while parsing file included at amba_monitor.sv(2)
+# ** at Probe_Packet.sv(1): Typedef 'Probe_Packet' multiply defined.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(11)
+# ** at amba_scoreboard.sv(1): Cannot find `include file "Probr_Packet.sv" in directories:
+#     C:/questasim64_10.4e/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(12)
+# ** at amba_environment.sv(4): Invalid type 'amba_generator'. Please check the type of the variable 'dutGen'.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(12)
+# ** at amba_environment.sv(26): (vlog-2730) Undefined variable: 'dutGen'.
+# 
+# End time: 15:56:28 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/apb_master.v
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 15:56:28 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/apb_master.v 
+# -- Compiling module apb_master
+# 
+# Top level modules:
+# 	apb_master
+# End time: 15:56:28 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/apb_slave.v
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 15:56:28 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/apb_slave.v 
+# -- Compiling module apb_slave
+# 
+# Top level modules:
+# 	apb_slave
+# End time: 15:56:28 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/intf.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 15:56:28 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/intf.sv 
+# -- Compiling interface intf
+# 
+# Top level modules:
+# 	--none--
+# End time: 15:56:28 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/Probe_Intf.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 15:56:28 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/Probe_Intf.sv 
+# -- Compiling interface Probe_Intf
+# 
+# Top level modules:
+# 	--none--
+# End time: 15:56:28 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/Probe_Packet.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 15:56:28 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/Probe_Packet.sv 
+# 
+# Top level modules:
+# 	--none--
+# End time: 15:56:29 on Oct 20,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.amba_top
+# vsim work.amba_top 
+# Start time: 15:56:50 on Oct 20,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_top.sv(48): Module 'amba_test' is not defined.
+# Optimization failed
+# Error loading design
+# End time: 15:56:52 on Oct 20,2020, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_apb.v
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:01:49 on Oct 20,2020
+# vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_apb.v 
+# -- Compiling module apb_slave
+# -- Compiling module apb_master
+# -- Compiling module amba_apb
+# 
+# Top level modules:
+# 	amba_apb
+# End time: 16:01:49 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_coverage.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:01:49 on Oct 20,2020
+# vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_coverage.sv 
+# 
+# Top level modules:
+# 	--none--
+# End time: 16:01:50 on Oct 20,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_driver.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:01:50 on Oct 20,2020
+# vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_driver.sv 
+# ** Error: D:/projects/AMBA_APB_SV/amba_driver.sv(3): Invalid type 'amba_packet'. Please check the type of the variable 'dutpkt'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_driver.sv(5): (vlog-2730) Undefined variable: 'amba_packet'.
+# 
+# End time: 16:01:50 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_environment.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:01:50 on Oct 20,2020
+# vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_environment.sv 
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(3): Invalid type 'amba_packet'. Please check the type of the variable 'dutPkt'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(4): Invalid type 'amba_generator'. Please check the type of the variable 'dutGen'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(5): Invalid type 'amba_driver'. Please check the type of the variable 'dutDrv'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(6): Invalid type 'amba_monitor'. Please check the type of the variable 'dutMon'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(7): Invalid type 'amba_coverage'. Please check the type of the variable 'dutCov'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(8): Invalid type 'amba_scoreboard'. Please check the type of the variable 'dutScb'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(13): (vlog-2730) Undefined variable: 'amba_packet'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(14): (vlog-2730) Undefined variable: 'Probe_Packet'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(26): (vlog-2730) Undefined variable: 'dutGen'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(27): (vlog-2730) Undefined variable: 'dutDrv'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(28): (vlog-2730) Undefined variable: 'dutMon'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(29): (vlog-2730) Undefined variable: 'dutScb'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(30): (vlog-2730) Undefined variable: 'dutCov'.
+# 
+# End time: 16:01:50 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 13, Warnings: 0
+vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_generator.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:01:50 on Oct 20,2020
+# vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_generator.sv 
+# ** Error: D:/projects/AMBA_APB_SV/amba_generator.sv(3): Invalid type 'amba_packet'. Please check the type of the variable 'dutpkt'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_generator.sv(4): (vlog-2730) Undefined variable: 'amba_packet'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_generator.sv(16): (vlog-2730) Undefined variable: 'dutpkt'.
+# 
+# End time: 16:01:50 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_header.svh
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:01:50 on Oct 20,2020
+# vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_header.svh 
+# -- Compiling interface intf
+# -- Compiling interface Probe_Intf
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_header.svh(9)
+# ** while parsing file included at amba_monitor.sv(1)
+# ** at amba_packet.sv(1): Typedef 'amba_packet' multiply defined.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_header.svh(9)
+# ** while parsing file included at amba_monitor.sv(2)
+# ** at Probe_Packet.sv(1): Typedef 'Probe_Packet' multiply defined.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_header.svh(11)
+# ** at amba_scoreboard.sv(1): Cannot find `include file "Probr_Packet.sv" in directories:
+#     C:/questasim64_10.4e/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_header.svh(12)
+# ** at amba_environment.sv(4): Invalid type 'amba_generator'. Please check the type of the variable 'dutGen'.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_header.svh(12)
+# ** at amba_environment.sv(26): (vlog-2730) Undefined variable: 'dutGen'.
+# 
+# End time: 16:01:50 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_monitor.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:01:50 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_monitor.sv 
+# ** Error: D:/projects/AMBA_APB_SV/amba_monitor.sv(16): Field/method name (dutintf) not in 'this'
+# ** Error: D:/projects/AMBA_APB_SV/amba_monitor.sv(56): Field/method name (mpwrit) not in 'dutpkt'
+# End time: 16:01:50 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_packet.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:01:50 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_packet.sv 
+# 
+# Top level modules:
+# 	--none--
+# End time: 16:01:50 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_scoreboard.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:01:50 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_scoreboard.sv 
+# ** Error: D:/projects/AMBA_APB_SV/amba_scoreboard.sv(1): Cannot find `include file "Probr_Packet.sv" in directories:
+#     C:/questasim64_10.4e/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# ** Error: D:/projects/AMBA_APB_SV/amba_scoreboard.sv(4): Invalid type 'Probe_Packet'. Please check the type of the variable 'probePkt'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_scoreboard.sv(6): (vlog-2730) Undefined variable: 'Probe_Packet'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_scoreboard.sv(21): (vlog-2730) Undefined variable: 'probePkt'.
+# 
+# End time: 16:01:50 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_test.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:01:51 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_test.sv 
+# -- Compiling module amba_test
+# ** Error: D:/projects/AMBA_APB_SV/amba_test.sv(4): 'amba_environment' is an unknown type.
+# Or did you omit the '()' for an instantiation?
+# ** Error: D:/projects/AMBA_APB_SV/amba_test.sv(8): 'dutEnv' is not a variable
+# ** Error: D:/projects/AMBA_APB_SV/amba_test.sv(8): Illegal LHS of assignment.
+# ** Error: D:/projects/AMBA_APB_SV/amba_test.sv(8): Illegal LHS of 'new' assignment.
+# ** Error: D:/projects/AMBA_APB_SV/amba_test.sv(8): 'new' must be used to assign to a class or covergroup handle.
+# End time: 16:01:51 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_top.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:01:51 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_top.sv 
+# -- Compiling interface intf
+# -- Compiling interface Probe_Intf
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(9)
+# ** while parsing file included at amba_monitor.sv(1)
+# ** at amba_packet.sv(1): Typedef 'amba_packet' multiply defined.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(9)
+# ** while parsing file included at amba_monitor.sv(2)
+# ** at Probe_Packet.sv(1): Typedef 'Probe_Packet' multiply defined.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(11)
+# ** at amba_scoreboard.sv(1): Cannot find `include file "Probr_Packet.sv" in directories:
+#     C:/questasim64_10.4e/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(12)
+# ** at amba_environment.sv(4): Invalid type 'amba_generator'. Please check the type of the variable 'dutGen'.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(12)
+# ** at amba_environment.sv(26): (vlog-2730) Undefined variable: 'dutGen'.
+# 
+# End time: 16:01:51 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/apb_master.v
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:01:51 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/apb_master.v 
+# -- Compiling module apb_master
+# 
+# Top level modules:
+# 	apb_master
+# End time: 16:01:51 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/apb_slave.v
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:01:51 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/apb_slave.v 
+# -- Compiling module apb_slave
+# 
+# Top level modules:
+# 	apb_slave
+# End time: 16:01:51 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/intf.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:01:51 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/intf.sv 
+# -- Compiling interface intf
+# 
+# Top level modules:
+# 	--none--
+# End time: 16:01:51 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/Probe_Intf.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:01:51 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/Probe_Intf.sv 
+# -- Compiling interface Probe_Intf
+# 
+# Top level modules:
+# 	--none--
+# End time: 16:01:52 on Oct 20,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/Probe_Packet.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:01:52 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/Probe_Packet.sv 
+# 
+# Top level modules:
+# 	--none--
+# End time: 16:01:52 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.amba_top
+# vsim work.amba_top 
+# Start time: 16:02:11 on Oct 20,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Error: amba_test.sv(4): 'amba_environment' is an unknown type.
+# Or did you omit the '()' for an instantiation?
+# ** Error: amba_test.sv(8): 'dutEnv' is not a variable
+# ** Error: amba_test.sv(8): Illegal LHS of assignment.
+# ** Error: amba_test.sv(8): Illegal LHS of 'new' assignment.
+# ** Error: amba_test.sv(8): 'new' must be used to assign to a class or covergroup handle.
+# ** Error: amba_test.sv(4): Module 'amba_environment' is not defined.
+# Optimization failed
+# Error loading design
+# End time: 16:02:12 on Oct 20,2020, Elapsed time: 0:00:01
+# Errors: 6, Warnings: 0
+vsim work.amba_top
+# vsim work.amba_top 
+# Start time: 16:33:28 on Oct 20,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Error: amba_test.sv(4): 'amba_environment' is an unknown type.
+# Or did you omit the '()' for an instantiation?
+# ** Error: amba_test.sv(8): 'dutEnv' is not a variable
+# ** Error: amba_test.sv(8): Illegal LHS of assignment.
+# ** Error: amba_test.sv(8): Illegal LHS of 'new' assignment.
+# ** Error: amba_test.sv(8): 'new' must be used to assign to a class or covergroup handle.
+# ** Error: amba_test.sv(4): Module 'amba_environment' is not defined.
+# Optimization failed
+# Error loading design
+# End time: 16:33:28 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_top.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:33:42 on Oct 20,2020
+# vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_top.sv 
+# -- Compiling interface intf
+# -- Compiling interface Probe_Intf
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(9)
+# ** while parsing file included at amba_monitor.sv(1)
+# ** at amba_packet.sv(1): Typedef 'amba_packet' multiply defined.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(9)
+# ** while parsing file included at amba_monitor.sv(2)
+# ** at Probe_Packet.sv(1): Typedef 'Probe_Packet' multiply defined.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(11)
+# ** at amba_scoreboard.sv(1): Cannot find `include file "Probr_Packet.sv" in directories:
+#     C:/questasim64_10.4e/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(12)
+# ** at amba_environment.sv(4): Invalid type 'amba_generator'. Please check the type of the variable 'dutGen'.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(12)
+# ** at amba_environment.sv(26): (vlog-2730) Undefined variable: 'dutGen'.
+# 
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(13)
+# ** while parsing file included at amba_test.sv(1)
+# ** at amba_environment.sv(1): Typedef 'amba_environment' multiply defined.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(13)
+# ** while parsing file included at amba_test.sv(1)
+# ** at amba_environment.sv(4): Invalid type 'amba_generator'. Please check the type of the variable 'dutGen'.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(13)
+# ** while parsing file included at amba_test.sv(1)
+# ** at amba_environment.sv(26): (vlog-2730) Undefined variable: 'dutGen'.
+# 
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(2)
+# ** while parsing file included at amba_test.sv(1)
+# ** at amba_environment.sv(1): Typedef 'amba_environment' multiply defined.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(2)
+# ** while parsing file included at amba_test.sv(1)
+# ** at amba_environment.sv(4): Invalid type 'amba_generator'. Please check the type of the variable 'dutGen'.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(2)
+# ** while parsing file included at amba_test.sv(1)
+# ** at amba_environment.sv(26): (vlog-2730) Undefined variable: 'dutGen'.
+# 
+# End time: 16:33:42 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 11, Warnings: 0
+vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_apb.v
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:34:19 on Oct 20,2020
+# vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_apb.v 
+# -- Compiling module apb_slave
+# -- Compiling module apb_master
+# -- Compiling module amba_apb
+# 
+# Top level modules:
+# 	amba_apb
+# End time: 16:34:19 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_coverage.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:34:19 on Oct 20,2020
+# vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_coverage.sv 
+# 
+# Top level modules:
+# 	--none--
+# End time: 16:34:19 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_driver.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:34:19 on Oct 20,2020
+# vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_driver.sv 
+# ** Error: D:/projects/AMBA_APB_SV/amba_driver.sv(3): Invalid type 'amba_packet'. Please check the type of the variable 'dutpkt'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_driver.sv(5): (vlog-2730) Undefined variable: 'amba_packet'.
+# 
+# End time: 16:34:19 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_environment.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:34:19 on Oct 20,2020
+# vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_environment.sv 
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(3): Invalid type 'amba_packet'. Please check the type of the variable 'dutPkt'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(4): Invalid type 'amba_generator'. Please check the type of the variable 'dutGen'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(5): Invalid type 'amba_driver'. Please check the type of the variable 'dutDrv'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(6): Invalid type 'amba_monitor'. Please check the type of the variable 'dutMon'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(7): Invalid type 'amba_coverage'. Please check the type of the variable 'dutCov'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(8): Invalid type 'amba_scoreboard'. Please check the type of the variable 'dutScb'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(13): (vlog-2730) Undefined variable: 'amba_packet'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(14): (vlog-2730) Undefined variable: 'Probe_Packet'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(26): (vlog-2730) Undefined variable: 'dutGen'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(27): (vlog-2730) Undefined variable: 'dutDrv'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(28): (vlog-2730) Undefined variable: 'dutMon'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(29): (vlog-2730) Undefined variable: 'dutScb'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(30): (vlog-2730) Undefined variable: 'dutCov'.
+# 
+# End time: 16:34:20 on Oct 20,2020, Elapsed time: 0:00:01
+# Errors: 13, Warnings: 0
+vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_generator.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:34:20 on Oct 20,2020
+# vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_generator.sv 
+# ** Error: D:/projects/AMBA_APB_SV/amba_generator.sv(3): Invalid type 'amba_packet'. Please check the type of the variable 'dutpkt'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_generator.sv(4): (vlog-2730) Undefined variable: 'amba_packet'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_generator.sv(16): (vlog-2730) Undefined variable: 'dutpkt'.
+# 
+# End time: 16:34:20 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_header.svh
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:34:20 on Oct 20,2020
+# vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_header.svh 
+# -- Compiling interface intf
+# -- Compiling interface Probe_Intf
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_header.svh(9)
+# ** while parsing file included at amba_monitor.sv(1)
+# ** at amba_packet.sv(1): Typedef 'amba_packet' multiply defined.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_header.svh(9)
+# ** while parsing file included at amba_monitor.sv(2)
+# ** at Probe_Packet.sv(1): Typedef 'Probe_Packet' multiply defined.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_header.svh(11)
+# ** at amba_scoreboard.sv(1): Cannot find `include file "Probr_Packet.sv" in directories:
+#     C:/questasim64_10.4e/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_header.svh(12)
+# ** at amba_environment.sv(4): Invalid type 'amba_generator'. Please check the type of the variable 'dutGen'.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_header.svh(12)
+# ** at amba_environment.sv(26): (vlog-2730) Undefined variable: 'dutGen'.
+# 
+# End time: 16:34:20 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_monitor.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:34:20 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_monitor.sv 
+# ** Error: D:/projects/AMBA_APB_SV/amba_monitor.sv(16): Field/method name (dutintf) not in 'this'
+# ** Error: D:/projects/AMBA_APB_SV/amba_monitor.sv(56): Field/method name (mpwrit) not in 'dutpkt'
+# End time: 16:34:20 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_packet.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:34:20 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_packet.sv 
+# 
+# Top level modules:
+# 	--none--
+# End time: 16:34:20 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_scoreboard.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:34:20 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_scoreboard.sv 
+# ** Error: D:/projects/AMBA_APB_SV/amba_scoreboard.sv(1): Cannot find `include file "Probr_Packet.sv" in directories:
+#     C:/questasim64_10.4e/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# ** Error: D:/projects/AMBA_APB_SV/amba_scoreboard.sv(4): Invalid type 'Probe_Packet'. Please check the type of the variable 'probePkt'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_scoreboard.sv(6): (vlog-2730) Undefined variable: 'Probe_Packet'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_scoreboard.sv(21): (vlog-2730) Undefined variable: 'probePkt'.
+# 
+# End time: 16:34:20 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_test.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:34:20 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_test.sv 
+# -- Compiling module amba_test
+# ** Error: D:/projects/AMBA_APB_SV/amba_test.sv(4): 'amba_environment' is an unknown type.
+# Or did you omit the '()' for an instantiation?
+# ** Error: D:/projects/AMBA_APB_SV/amba_test.sv(8): 'dutEnv' is not a variable
+# ** Error: D:/projects/AMBA_APB_SV/amba_test.sv(8): Illegal LHS of assignment.
+# ** Error: D:/projects/AMBA_APB_SV/amba_test.sv(8): Illegal LHS of 'new' assignment.
+# ** Error: D:/projects/AMBA_APB_SV/amba_test.sv(8): 'new' must be used to assign to a class or covergroup handle.
+# End time: 16:34:20 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_top.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:34:20 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_top.sv 
+# -- Compiling interface intf
+# -- Compiling interface Probe_Intf
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(9)
+# ** while parsing file included at amba_monitor.sv(1)
+# ** at amba_packet.sv(1): Typedef 'amba_packet' multiply defined.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(9)
+# ** while parsing file included at amba_monitor.sv(2)
+# ** at Probe_Packet.sv(1): Typedef 'Probe_Packet' multiply defined.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(11)
+# ** at amba_scoreboard.sv(1): Cannot find `include file "Probr_Packet.sv" in directories:
+#     C:/questasim64_10.4e/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/questasim64_10.4e/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(12)
+# ** at amba_environment.sv(4): Invalid type 'amba_generator'. Please check the type of the variable 'dutGen'.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(12)
+# ** at amba_environment.sv(26): (vlog-2730) Undefined variable: 'dutGen'.
+# 
+# End time: 16:34:20 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/apb_master.v
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:34:21 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/apb_master.v 
+# -- Compiling module apb_master
+# 
+# Top level modules:
+# 	apb_master
+# End time: 16:34:21 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/apb_slave.v
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:34:21 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/apb_slave.v 
+# -- Compiling module apb_slave
+# 
+# Top level modules:
+# 	apb_slave
+# End time: 16:34:21 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/intf.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:34:21 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/intf.sv 
+# -- Compiling interface intf
+# 
+# Top level modules:
+# 	--none--
+# End time: 16:34:21 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/Probe_Intf.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:34:21 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/Probe_Intf.sv 
+# -- Compiling interface Probe_Intf
+# 
+# Top level modules:
+# 	--none--
+# End time: 16:34:21 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/Probe_Packet.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 16:34:21 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/Probe_Packet.sv 
+# 
+# Top level modules:
+# 	--none--
+# End time: 16:34:21 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.amba_top
+# vsim work.amba_top 
+# Start time: 16:34:39 on Oct 20,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Error: amba_test.sv(4): 'amba_environment' is an unknown type.
+# Or did you omit the '()' for an instantiation?
+# ** Error: amba_test.sv(8): 'dutEnv' is not a variable
+# ** Error: amba_test.sv(8): Illegal LHS of assignment.
+# ** Error: amba_test.sv(8): Illegal LHS of 'new' assignment.
+# ** Error: amba_test.sv(8): 'new' must be used to assign to a class or covergroup handle.
+# ** Error: amba_test.sv(4): Module 'amba_environment' is not defined.
+# Optimization failed
+# Error loading design
+# End time: 16:34:39 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_top.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:08:53 on Oct 20,2020
+# vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_top.sv 
+# -- Compiling interface intf
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(6)
+# ** while parsing file included at amba_monitor.sv(1)
+# ** at amba_packet.sv(1): Typedef 'amba_packet' multiply defined.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(8)
+# ** while parsing file included at amba_scoreboard.sv(1)
+# ** at amba_packet.sv(1): Typedef 'amba_packet' multiply defined.
+# ** Error: (vlog-13069) ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(8)
+# ** at amba_scoreboard.sv(27): near "assert": syntax error, unexpected assert , expecting ';' or ','.
+# 
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(8)
+# ** at amba_scoreboard.sv(29): Illegal declaration after the statement near line '20'. Declarations must precede statements. Look for stray semicolons.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(9)
+# ** at amba_environment.sv(4): Invalid type 'amba_generator'. Please check the type of the variable 'dutGen'.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(9)
+# ** at amba_environment.sv(26): (vlog-2730) Undefined variable: 'dutGen'.
+# 
+# End time: 20:08:53 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_top.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:08:56 on Oct 20,2020
+# vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_top.sv 
+# -- Compiling interface intf
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(6)
+# ** while parsing file included at amba_monitor.sv(1)
+# ** at amba_packet.sv(1): Typedef 'amba_packet' multiply defined.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(8)
+# ** while parsing file included at amba_scoreboard.sv(1)
+# ** at amba_packet.sv(1): Typedef 'amba_packet' multiply defined.
+# ** Error: (vlog-13069) ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(8)
+# ** at amba_scoreboard.sv(27): near "assert": syntax error, unexpected assert , expecting ';' or ','.
+# 
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(8)
+# ** at amba_scoreboard.sv(29): Illegal declaration after the statement near line '20'. Declarations must precede statements. Look for stray semicolons.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(9)
+# ** at amba_environment.sv(4): Invalid type 'amba_generator'. Please check the type of the variable 'dutGen'.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(9)
+# ** at amba_environment.sv(26): (vlog-2730) Undefined variable: 'dutGen'.
+# 
+# End time: 20:08:56 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_coverage.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:09:04 on Oct 20,2020
+# vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_coverage.sv 
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:09:04 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_driver.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:09:04 on Oct 20,2020
+# vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_driver.sv 
+# ** Error: D:/projects/AMBA_APB_SV/amba_driver.sv(3): Invalid type 'amba_packet'. Please check the type of the variable 'dutpkt'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_driver.sv(5): (vlog-2730) Undefined variable: 'amba_packet'.
+# 
+# End time: 20:09:04 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_environment.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:09:04 on Oct 20,2020
+# vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_environment.sv 
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(3): Invalid type 'amba_packet'. Please check the type of the variable 'dutPkt'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(4): Invalid type 'amba_generator'. Please check the type of the variable 'dutGen'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(5): Invalid type 'amba_driver'. Please check the type of the variable 'dutDrv'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(6): Invalid type 'amba_monitor'. Please check the type of the variable 'dutMon'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(7): Invalid type 'amba_scoreboard'. Please check the type of the variable 'dutScb'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(12): (vlog-2730) Undefined variable: 'amba_packet'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(26): (vlog-2730) Undefined variable: 'dutGen'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(27): (vlog-2730) Undefined variable: 'dutDrv'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(28): (vlog-2730) Undefined variable: 'dutMon'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(29): (vlog-2730) Undefined variable: 'dutScb'.
+# 
+# End time: 20:09:04 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 0
+vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_generator.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:09:04 on Oct 20,2020
+# vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_generator.sv 
+# ** Error: D:/projects/AMBA_APB_SV/amba_generator.sv(3): Invalid type 'amba_packet'. Please check the type of the variable 'dutpkt'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_generator.sv(4): (vlog-2730) Undefined variable: 'amba_packet'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_generator.sv(16): (vlog-2730) Undefined variable: 'dutpkt'.
+# 
+# End time: 20:09:04 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_header.svh
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:09:04 on Oct 20,2020
+# vlog -reportprogress 300 -work work D:/projects/AMBA_APB_SV/amba_header.svh 
+# -- Compiling interface intf
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_header.svh(6)
+# ** while parsing file included at amba_monitor.sv(1)
+# ** at amba_packet.sv(1): Typedef 'amba_packet' multiply defined.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_header.svh(8)
+# ** while parsing file included at amba_scoreboard.sv(1)
+# ** at amba_packet.sv(1): Typedef 'amba_packet' multiply defined.
+# ** Error: (vlog-13069) ** while parsing file included at D:/projects/AMBA_APB_SV/amba_header.svh(8)
+# ** at amba_scoreboard.sv(27): near "assert": syntax error, unexpected assert , expecting ';' or ','.
+# 
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_header.svh(8)
+# ** at amba_scoreboard.sv(29): Illegal declaration after the statement near line '20'. Declarations must precede statements. Look for stray semicolons.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_header.svh(9)
+# ** at amba_environment.sv(4): Invalid type 'amba_generator'. Please check the type of the variable 'dutGen'.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_header.svh(9)
+# ** at amba_environment.sv(26): (vlog-2730) Undefined variable: 'dutGen'.
+# 
+# End time: 20:09:04 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_monitor.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:09:04 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_monitor.sv 
+# ** Error: D:/projects/AMBA_APB_SV/amba_monitor.sv(58): Field/method name (mpwrit) not in 'dutpkt'
+# ** Error: D:/projects/AMBA_APB_SV/amba_monitor.sv(59): Field/method name (mpwrit) not in 'dutpkt_2'
+# End time: 20:09:05 on Oct 20,2020, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_packet.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:09:05 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_packet.sv 
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:09:05 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_scoreboard.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:09:05 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_scoreboard.sv 
+# ** Error: (vlog-13069) D:/projects/AMBA_APB_SV/amba_scoreboard.sv(27): near "assert": syntax error, unexpected assert , expecting ';' or ','.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_scoreboard.sv(29): Illegal declaration after the statement near line '20'. Declarations must precede statements. Look for stray semicolons.
+# End time: 20:09:05 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_test.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:09:06 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_test.sv 
+# -- Compiling module amba_test
+# ** Error: D:/projects/AMBA_APB_SV/amba_test.sv(4): 'amba_environment' is an unknown type.
+# Or did you omit the '()' for an instantiation?
+# ** Error: D:/projects/AMBA_APB_SV/amba_test.sv(8): 'dutEnv' is not a variable
+# ** Error: D:/projects/AMBA_APB_SV/amba_test.sv(8): Illegal LHS of assignment.
+# ** Error: D:/projects/AMBA_APB_SV/amba_test.sv(8): Illegal LHS of 'new' assignment.
+# ** Error: D:/projects/AMBA_APB_SV/amba_test.sv(8): 'new' must be used to assign to a class or covergroup handle.
+# ** Error: D:/projects/AMBA_APB_SV/amba_test.sv(8): (vlog-2730) Undefined variable: 'dutintf_2'.
+# 
+# End time: 20:09:06 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_top.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:09:06 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_top.sv 
+# -- Compiling interface intf
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(6)
+# ** while parsing file included at amba_monitor.sv(1)
+# ** at amba_packet.sv(1): Typedef 'amba_packet' multiply defined.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(8)
+# ** while parsing file included at amba_scoreboard.sv(1)
+# ** at amba_packet.sv(1): Typedef 'amba_packet' multiply defined.
+# ** Error: (vlog-13069) ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(8)
+# ** at amba_scoreboard.sv(27): near "assert": syntax error, unexpected assert , expecting ';' or ','.
+# 
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(8)
+# ** at amba_scoreboard.sv(29): Illegal declaration after the statement near line '20'. Declarations must precede statements. Look for stray semicolons.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(9)
+# ** at amba_environment.sv(4): Invalid type 'amba_generator'. Please check the type of the variable 'dutGen'.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(9)
+# ** at amba_environment.sv(26): (vlog-2730) Undefined variable: 'dutGen'.
+# 
+# End time: 20:09:06 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/apb_master.v
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:09:06 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/apb_master.v 
+# -- Compiling module apb_master
+# 
+# Top level modules:
+# 	apb_master
+# End time: 20:09:06 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/apb_slave.v
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:09:06 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/apb_slave.v 
+# -- Compiling module apb_slave
+# 
+# Top level modules:
+# 	apb_slave
+# End time: 20:09:06 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/intf.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:09:07 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/intf.sv 
+# -- Compiling interface intf
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:09:07 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/Probe_Intf.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:09:07 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/Probe_Intf.sv 
+# -- Compiling interface Probe_Intf
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:09:07 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/Probe_Packet.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:09:07 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/Probe_Packet.sv 
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:09:08 on Oct 20,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_apb.v
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:09:08 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_apb.v 
+# -- Compiling module apb_slave
+# -- Compiling module apb_master
+# -- Compiling module amba_apb
+# 
+# Top level modules:
+# 	amba_apb
+# End time: 20:09:08 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_coverage.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:09:08 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_coverage.sv 
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:09:08 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_driver.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:09:09 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_driver.sv 
+# ** Error: D:/projects/AMBA_APB_SV/amba_driver.sv(3): Invalid type 'amba_packet'. Please check the type of the variable 'dutpkt'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_driver.sv(5): (vlog-2730) Undefined variable: 'amba_packet'.
+# 
+# End time: 20:09:09 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_environment.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:09:09 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_environment.sv 
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(3): Invalid type 'amba_packet'. Please check the type of the variable 'dutPkt'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(4): Invalid type 'amba_generator'. Please check the type of the variable 'dutGen'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(5): Invalid type 'amba_driver'. Please check the type of the variable 'dutDrv'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(6): Invalid type 'amba_monitor'. Please check the type of the variable 'dutMon'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(7): Invalid type 'amba_scoreboard'. Please check the type of the variable 'dutScb'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(12): (vlog-2730) Undefined variable: 'amba_packet'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(26): (vlog-2730) Undefined variable: 'dutGen'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(27): (vlog-2730) Undefined variable: 'dutDrv'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(28): (vlog-2730) Undefined variable: 'dutMon'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_environment.sv(29): (vlog-2730) Undefined variable: 'dutScb'.
+# 
+# End time: 20:09:09 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_generator.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:09:09 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_generator.sv 
+# ** Error: D:/projects/AMBA_APB_SV/amba_generator.sv(3): Invalid type 'amba_packet'. Please check the type of the variable 'dutpkt'.
+# ** Error: D:/projects/AMBA_APB_SV/amba_generator.sv(4): (vlog-2730) Undefined variable: 'amba_packet'.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_generator.sv(16): (vlog-2730) Undefined variable: 'dutpkt'.
+# 
+# End time: 20:09:09 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_header.svh
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:09:09 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_header.svh 
+# -- Compiling interface intf
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_header.svh(6)
+# ** while parsing file included at amba_monitor.sv(1)
+# ** at amba_packet.sv(1): Typedef 'amba_packet' multiply defined.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_header.svh(8)
+# ** while parsing file included at amba_scoreboard.sv(1)
+# ** at amba_packet.sv(1): Typedef 'amba_packet' multiply defined.
+# ** Error: (vlog-13069) ** while parsing file included at D:/projects/AMBA_APB_SV/amba_header.svh(8)
+# ** at amba_scoreboard.sv(27): near "assert": syntax error, unexpected assert , expecting ';' or ','.
+# 
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_header.svh(8)
+# ** at amba_scoreboard.sv(29): Illegal declaration after the statement near line '20'. Declarations must precede statements. Look for stray semicolons.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_header.svh(9)
+# ** at amba_environment.sv(4): Invalid type 'amba_generator'. Please check the type of the variable 'dutGen'.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_header.svh(9)
+# ** at amba_environment.sv(26): (vlog-2730) Undefined variable: 'dutGen'.
+# 
+# End time: 20:09:10 on Oct 20,2020, Elapsed time: 0:00:01
+# Errors: 6, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_monitor.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:09:10 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_monitor.sv 
+# ** Error: D:/projects/AMBA_APB_SV/amba_monitor.sv(58): Field/method name (mpwrit) not in 'dutpkt'
+# ** Error: D:/projects/AMBA_APB_SV/amba_monitor.sv(59): Field/method name (mpwrit) not in 'dutpkt_2'
+# End time: 20:09:10 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_packet.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:09:10 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_packet.sv 
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:09:10 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_scoreboard.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:09:10 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_scoreboard.sv 
+# ** Error: (vlog-13069) D:/projects/AMBA_APB_SV/amba_scoreboard.sv(27): near "assert": syntax error, unexpected assert , expecting ';' or ','.
+# 
+# ** Error: D:/projects/AMBA_APB_SV/amba_scoreboard.sv(29): Illegal declaration after the statement near line '20'. Declarations must precede statements. Look for stray semicolons.
+# End time: 20:09:10 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_test.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:09:11 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_test.sv 
+# -- Compiling module amba_test
+# ** Error: D:/projects/AMBA_APB_SV/amba_test.sv(4): 'amba_environment' is an unknown type.
+# Or did you omit the '()' for an instantiation?
+# ** Error: D:/projects/AMBA_APB_SV/amba_test.sv(8): 'dutEnv' is not a variable
+# ** Error: D:/projects/AMBA_APB_SV/amba_test.sv(8): Illegal LHS of assignment.
+# ** Error: D:/projects/AMBA_APB_SV/amba_test.sv(8): Illegal LHS of 'new' assignment.
+# ** Error: D:/projects/AMBA_APB_SV/amba_test.sv(8): 'new' must be used to assign to a class or covergroup handle.
+# ** Error: D:/projects/AMBA_APB_SV/amba_test.sv(8): (vlog-2730) Undefined variable: 'dutintf_2'.
+# 
+# End time: 20:09:11 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_top.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:09:11 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/amba_top.sv 
+# -- Compiling interface intf
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(6)
+# ** while parsing file included at amba_monitor.sv(1)
+# ** at amba_packet.sv(1): Typedef 'amba_packet' multiply defined.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(8)
+# ** while parsing file included at amba_scoreboard.sv(1)
+# ** at amba_packet.sv(1): Typedef 'amba_packet' multiply defined.
+# ** Error: (vlog-13069) ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(8)
+# ** at amba_scoreboard.sv(27): near "assert": syntax error, unexpected assert , expecting ';' or ','.
+# 
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(8)
+# ** at amba_scoreboard.sv(29): Illegal declaration after the statement near line '20'. Declarations must precede statements. Look for stray semicolons.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(9)
+# ** at amba_environment.sv(4): Invalid type 'amba_generator'. Please check the type of the variable 'dutGen'.
+# ** Error: ** while parsing file included at D:/projects/AMBA_APB_SV/amba_top.sv(1)
+# ** while parsing file included at amba_header.svh(9)
+# ** at amba_environment.sv(26): (vlog-2730) Undefined variable: 'dutGen'.
+# 
+# End time: 20:09:11 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/apb_master.v
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:09:11 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/apb_master.v 
+# -- Compiling module apb_master
+# 
+# Top level modules:
+# 	apb_master
+# End time: 20:09:11 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/apb_slave.v
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:09:11 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/apb_slave.v 
+# -- Compiling module apb_slave
+# 
+# Top level modules:
+# 	apb_slave
+# End time: 20:09:11 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/intf.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:09:12 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/intf.sv 
+# -- Compiling interface intf
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:09:12 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/Probe_Intf.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:09:12 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/Probe_Intf.sv 
+# -- Compiling interface Probe_Intf
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:09:12 on Oct 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/Probe_Packet.sv
+# QuestaSim-64 vlog 10.4e Compiler 2016.04 Apr  9 2016
+# Start time: 20:09:12 on Oct 20,2020
+# vlog -reportprogress 30 -work work D:/projects/AMBA_APB_SV/Probe_Packet.sv 
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:09:13 on Oct 20,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.amba_top
+# vsim work.amba_top 
+# Start time: 20:09:31 on Oct 20,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Error: amba_test.sv(4): 'amba_environment' is an unknown type.
+# Or did you omit the '()' for an instantiation?
+# ** Error: amba_test.sv(8): 'dutEnv' is not a variable
+# ** Error: amba_test.sv(8): Illegal LHS of assignment.
+# ** Error: amba_test.sv(8): Illegal LHS of 'new' assignment.
+# ** Error: amba_test.sv(8): 'new' must be used to assign to a class or covergroup handle.
+# ** Error: amba_test.sv(2): For instance 't1', interface port 'probeIntf' requires an instance of interface 'Probe_Intf', but was passed a 'intf'.
+# ** Error: amba_test.sv(4): Module 'amba_environment' is not defined.
+# Optimization failed
+# Error loading design
+# End time: 20:09:32 on Oct 20,2020, Elapsed time: 0:00:01
+# Errors: 7, Warnings: 0
